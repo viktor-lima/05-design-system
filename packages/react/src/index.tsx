@@ -1,4 +1,12 @@
-import { colors } from '@ignite-ui/tokens'
+import { styled } from './styles'
+
+const Button = styled('button', {
+  fontFamily: '$default',
+  backgroundColor: '$ignite500',
+  borderRadius: '$md',
+  padding: '$4',
+  height: '$10',
+})
 
 interface indexProps {
   // adicione suas props aqui
@@ -7,7 +15,7 @@ interface indexProps {
 export function App(props: indexProps) {
   return (
     <div>
-      <h1 style={{ color: colors.ignite300 }}>Hello Word</h1>
+      <Button>Hello Word</Button>
     </div>
   )
 }
