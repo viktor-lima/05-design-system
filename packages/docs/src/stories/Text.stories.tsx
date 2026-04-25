@@ -9,6 +9,28 @@ export default {
     children:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores nesciunt, inventore tempore quasi perspiciatis obcaecati delectus doloremque dolores fuga ad eius esse repellat temporibus. Accusamus quibusdam laborum autem odio facilis?',
   },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}

@@ -492,6 +492,7 @@ function MultiStep({ size, currentStep }) {
     }) })
   ] });
 }
+MultiStep.displayName = "MultiStep";
 export {
   Avatar2 as Avatar,
   Box,

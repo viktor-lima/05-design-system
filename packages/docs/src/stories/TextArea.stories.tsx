@@ -18,6 +18,13 @@ export default {
       )
     },
   ],
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<TextAreaProps>
 
 export const Primary: StoryObj<TextAreaProps> = {

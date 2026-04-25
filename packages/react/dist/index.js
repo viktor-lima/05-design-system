@@ -533,6 +533,7 @@ function MultiStep({ size, currentStep }) {
     }) })
   ] });
 }
+MultiStep.displayName = "MultiStep";
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Avatar,

@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/viktor-lima.png',
     alt: 'João Viktor Lima',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
